@@ -1,0 +1,29 @@
+-- 1. Selezionare il nome di tutte le sale situate nella città di Pisa.
+-- 2. Selezionare il titolo dei film diretti dal regista F. Fellini prodotti dopo il 1960.
+-- 3. Selezionare il titolo e la durata dei film di genere 'Fantascienza' di nazionalità giapponese o francese prodotti dopo il 1990.
+-- 4. Selezionare il titolo dei film di fantascienza giapponesi prodotti dopo il 1990 oppure di tutti i film francesi.
+-- 5. Selezionare il titolo dei film diretti dallo stesso regista del film “Casablanca”.
+-- 6. Selezionare il titolo ed il genere dei film che sono stati proiettati il giorno di Natale (25/12) del 2004.
+-- 7. Selezionare il titolo ed il genere dei film proiettati a Napoli il giorno di Natale 2004.
+-- 8. Selezionare i nomi delle sale di Napoli in cui il giorno di Natale 2004 è stato proiettato un film con l'attore R. Williams.
+-- 9. Selezionare il titolo dei film in cui recita l'attore M. Mastroianni oppure l'attrice S. Loren.
+-- 10. Selezionare il titolo dei film in cui recitano contemporaneamente M. Mastroianni e S. Loren.
+-- 11. Per ogni film in cui recita un attore di nazionalità francese, mostrare il titolo del film e il nome dell’attore.
+-- 12. Per ogni film proiettato a Pisa nel gennaio 2005, mostrare il titolo del film e il nome della sala.
+-- 13. Contare il numero di sale di Pisa che hanno una capienza superiore a 60 posti.
+-- 14. Calcolare il numero totale di posti disponibili in tutte le sale di Pisa.
+-- 15. Per ogni città presente nel database, contare il numero di sale disponibili.
+-- 16. Per ogni città, contare il numero di sale che hanno più di 60 posti.
+-- 17. Per ogni regista, contare il numero di film diretti dopo l'anno 1990.
+-- 18. Per ogni regista, calcolare l’incasso totale derivante da tutte le proiezioni dei suoi film.
+-- 19. Per ogni film di S. Spielberg, mostrare il titolo, il numero totale di proiezioni effettuate a Pisa e l’incasso totale.
+-- 20. Per ogni coppia regista-attore, contare il numero di film del regista in cui compare quell'attore.
+-- 21. Selezionare il regista ed il titolo dei film che hanno nel cast meno di 6 attori registrati.
+-- 22. Per ogni film prodotto dopo il 2000, mostrare il codice (ID), il titolo e l’incasso totale di tutte le sue proiezioni.
+-- 23. Contare il numero di attori che hanno recitato in film dove compaiono esclusivamente attori nati prima del 1970.
+-- 24. Per ogni film di fantascienza, mostrare il titolo e l’incasso totale di tutte le sue proiezioni.
+-- 25. Per ogni film di fantascienza, mostrare il titolo e l’incasso totale delle sole proiezioni avvenute dopo il 01/01/2001.
+-- 26. Per ogni film di fantascienza che NON è mai stato proiettato prima del 01/01/2001, mostrare il titolo e l’incasso totale.
+-- 27. Per ogni sala di Pisa che nel mese di gennaio 2005 ha incassato complessivamente più di 20.000 €, mostrare il nome e l’incasso totale del mese.
+-- 28. Selezionare i titoli dei film che non sono mai stati proiettati nella città di Pisa.
+-- 29. Selezionare i titoli dei film che sono stati proiettati esclusivamente a Pisa (e in nessun'altra città).
