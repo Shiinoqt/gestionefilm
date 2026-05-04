@@ -1,9 +1,30 @@
 -- 1. Selezionare il nome di tutte le sale situate nella città di Pisa.
+select nome
+from sala s
+where s.citta = "Pisa";
+
 -- 2. Selezionare il titolo dei film diretti dal regista F. Fellini prodotti dopo il 1960.
+select titolo
+from film f
+where f.regista = "F. Fellini" and anno_produzione > 1960;
+
 -- 3. Selezionare il titolo e la durata dei film di genere 'Fantascienza' di nazionalità giapponese o francese prodotti dopo il 1990.
+select titolo, durata
+from film f
+where f.genere = "Fantascienza" and (f.nazionalita = "Giappone" or f.nazionalita = "Francia") and anno_produzione > 1990;
+
 -- 4. Selezionare il titolo dei film di fantascienza giapponesi prodotti dopo il 1990 oppure di tutti i film francesi.
+select titolo
+from film f 
+where (f.nazionalita = "Giappone" and anno_produzione > 1990) or f.nazionalita = "Francia";
+
 -- 5. Selezionare il titolo dei film diretti dallo stesso regista del film “Casablanca”.
+select titolo 
+from film 
+where regista = (select regista from film where titolo = 'Casablanca');
+
 -- 6. Selezionare il titolo ed il genere dei film che sono stati proiettati il giorno di Natale (25/12) del 2004.
+
 -- 7. Selezionare il titolo ed il genere dei film proiettati a Napoli il giorno di Natale 2004.
 -- 8. Selezionare i nomi delle sale di Napoli in cui il giorno di Natale 2004 è stato proiettato un film con l'attore R. Williams.
 -- 9. Selezionare il titolo dei film in cui recita l'attore M. Mastroianni oppure l'attrice S. Loren.
