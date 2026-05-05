@@ -1,3 +1,5 @@
+START TRANSACTION;
+
 INSERT INTO attore VALUES
 (1, 'Marcello Mastroianni', 1924, 'Italia'),
 (2, 'Sophia Loren', 1934, 'Italia'),
@@ -53,3 +55,5 @@ INSERT INTO proiezione VALUES
 (7, 10, 5, 2000, '2005-02-01'),
 (8, 9, 3, 3500, '2004-11-10'),
 (9, 3, 5, 1000, '2004-01-01');
+
+COMMIT;
